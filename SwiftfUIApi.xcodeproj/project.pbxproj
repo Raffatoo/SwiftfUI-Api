@@ -11,6 +11,9 @@
 		52FBFA912681896900386976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBFA902681896900386976 /* ContentView.swift */; };
 		52FBFA932681896900386976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBFA922681896900386976 /* Assets.xcassets */; };
 		52FBFA962681896900386976 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBFA952681896900386976 /* Preview Assets.xcassets */; };
+		52FBFAA026818B8500386976 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBFA9F26818B8500386976 /* NetworkManager.swift */; };
+		52FBFAA326818D3400386976 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBFAA226818D3400386976 /* Post.swift */; };
+		52FBFAA9268192CC00386976 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBFAA8268192CC00386976 /* PostListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		52FBFA922681896900386976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FBFA952681896900386976 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52FBFA972681896900386976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FBFA9F26818B8500386976 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		52FBFAA226818D3400386976 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		52FBFAA8268192CC00386976 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		52FBFA8D2681896900386976 /* SwiftfUIApi */ = {
 			isa = PBXGroup;
 			children = (
+				52FBFA9F26818B8500386976 /* NetworkManager.swift */,
+				52FBFAA226818D3400386976 /* Post.swift */,
+				52FBFAA8268192CC00386976 /* PostListViewModel.swift */,
 				52FBFA8E2681896900386976 /* SwiftfUIApiApp.swift */,
 				52FBFA902681896900386976 /* ContentView.swift */,
 				52FBFA922681896900386976 /* Assets.xcassets */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FBFAA026818B8500386976 /* NetworkManager.swift in Sources */,
 				52FBFA912681896900386976 /* ContentView.swift in Sources */,
+				52FBFAA9268192CC00386976 /* PostListViewModel.swift in Sources */,
 				52FBFA8F2681896900386976 /* SwiftfUIApiApp.swift in Sources */,
+				52FBFAA326818D3400386976 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
